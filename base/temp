@@ -1,4 +1,0 @@
-Compiling FileStream.cpp
-FileStream.cpp: In member function ‘virtual void base::FileStream::ptruncate()’:
-FileStream.cpp:204: error: ‘_fileno’ was not declared in this scope
-make: *** [FileStream.cpp.o] Erreur 1
