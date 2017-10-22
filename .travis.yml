@@ -1,0 +1,12 @@
+language: c
+
+script: make
+
+deploy:
+  provider: releases
+  api-key:
+    - secure: "GKGTdMhy7KsUol3llGMG3IleiyF0wQQlFLj+CDjy2YdakGhyz+jZURBlad3c4HyRTi1cxCD/httMs1n437q+h5ZiWFpfeTs33F0TnF9i+2MygdjZqNmyOhNMoWkwVUjtmiRzeDZwuIndxjAKffZJfWHt1rASouNEttdJrDa155kBX5UoBfl/M/r/TKEmGtkZJgDrSWawCgw9tLHllLsXRD9Z6Z0spGE0Zr8jy99fZYknHxfbFzbd9+SLyamSVjNiGxktD7VS9Duroyv7Qmy8x2sNxE0HyQJ/qWyO+i6d2CyxSzkFD9uGem+NbIQ3JUK66bGpoJtuBNquXZ5vWIeMXfbRX02hqoJ0JsVGBNOhYBKAgwPz47N+usQ6jOM7XJFP+gMjBTtBfpSp99JxKRneD2KCMl4Z9IMWuL0Qa9Fm9y42ckwVa527CbN2iCq3gziWyG1Sb+++xXwaUKyLIcIeSt9Dw4R9wzIs/IThEO1KrXQwQUNy8EBK7yDqg5XILa1zHpyuV0cZNktAJr8fono0g8VT8b11HB6ITFZQVZnI1NEAnIcJXW3yX5HaZ70dA67qTyZJ10vADgPa+G5mWVhDi3SOrFTAiYq+ry+kmdBj7+csX2VbLbiEhZeKtJFqB4yIrlg9Gy2ZSreb5KX4QTBhm3J8iXqtYuBQS/LPB07wT9Q="
+  file: snesbrr
+  skip_cleanup: true
+  on:
+    tags: true
